@@ -34,6 +34,34 @@ body{
     border-radius: 25px;
     position: absolute;
     margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.your-resulH1{
+    background: var(--background-gradient);
+    color: var(--Pale-blue);
+    & h1{
+        background: var(--background-gradient);
+    }
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    background: var(--circle-garndient);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h1{
+        background: transparent;
+    }
+    & span{
+        background: transparent;
+    }
 }
 .summary{
     height: 400px;
@@ -41,6 +69,35 @@ body{
     border-radius: 25px;  
     background: var(--White);
     box-shadow: 2px 2px 2px #e8eefc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 
+
+}
+
+.summary-items{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.specs1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.specs2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.specs3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.specs4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
