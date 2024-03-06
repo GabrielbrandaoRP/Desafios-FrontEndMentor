@@ -10,3 +10,202 @@
     font-family: "Montserrat", sans-serif;
     background-color: var(--white);
 }
+body{
+    display: flex;
+    flex-direction: column;
+    height: 270vh;  
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-top: 15px;
+}
+
+.boxLogoNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65px;
+    text-decoration: none;
+    & h1{
+        color: var(--black);
+        font-size: 1.7rem;
+    }
+    & img{
+        height: 50px;
+    }
+}
+
+.navBar{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    & li {
+ c       text-decoration: none;
+    }
+    & a {
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--gray);
+        text-decoration: none;
+    }
+    & a:hover {
+        color: var(--black);
+        transition: 0.2s;
+    }
+
+}
+.downloadButtonNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    background-color: var(--blue-brand);
+    margin-right: 65px;
+    & a{
+        display: inline-block;
+        color: var(--black);
+        text-decoration: none;
+        mix-blend-mode: multiply;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180vh;
+    gap: 50px;
+}
+.mainTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    & p{
+        font-weight: 400;
+        font-size: 1.625rem;
+    }
+}
+.titleRow{
+    display: flex;
+    gap: 10px;
+    & h1{
+        font-weight: 700;
+        font-size: 4.25rem;
+    }
+    & .nameColor{
+        color: var(--blue-brand);
+    }
+}
+
+.frame{
+    width: 950px;
+    height: 600px;
+    & img{
+        height:100%;
+        width: 100%;
+
+    }
+
+}
+
+.enterDownload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    & h1{
+        font-weight: 700;
+        font-size: 4.25rem;
+    }
+}
+
+.downloadButtonMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 170px;
+    border-radius: 25px;
+    background-color: var(--blue-brand);
+}
+
+
+hr{ 
+    width: 75%;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    height: 375px;
+
+}
+.list1{
+    & ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style: none;
+        & .boxLogoFooter{
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            & h1{
+                color: var(--black);
+                font-size: 1.7rem;
+            }
+            & img{
+                height: 50px;
+            }
+        }
+        & li{
+    
+        }
+    }
+}
+.listsFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & h1{
+        font-weight: 700;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    & a{
+        font-weight: 400;
+        color: var(--black);
+        text-decoration: none;
+    }
+}
+.links-row{
+    display: flex;
+    gap: 10px;
+    & a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        background: var(--blue-brand);
+        color: var(--white);
+        text-decoration: none;
+    }
+    & i{
+        background: transparent;
+    }
+}
